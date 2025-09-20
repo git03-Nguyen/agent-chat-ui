@@ -93,7 +93,7 @@ function OpenGitHubRepo() {
       <Tooltip>
         <TooltipTrigger asChild>
           <a
-            href="https://github.com/langchain-ai/agent-chat-ui"
+            href="https://github.com/git03-Nguyen"
             target="_blank"
             className="flex items-center justify-center"
           >
@@ -104,7 +104,7 @@ function OpenGitHubRepo() {
           </a>
         </TooltipTrigger>
         <TooltipContent side="left">
-          <p>Open GitHub repo</p>
+          <p>Open GitHub</p>
         </TooltipContent>
       </Tooltip>
     </TooltipProvider>
@@ -361,8 +361,7 @@ export function Thread() {
                   }}
                 >
                   <LangGraphLogoSVG
-                    width={32}
-                    height={32}
+                    className="h-8"
                   />
                   <span className="text-xl font-semibold tracking-tight">
                     Agent Chat
